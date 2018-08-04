@@ -10,7 +10,7 @@ import java.io.*;
  * @author: yczuoxin
  * @create: 2018-08-04 16:11
  **/
-public class Serializable {
+public class SerializableTest {
     public static void main(String[] args) {
         Serialize serialize = Serialize.getInstance();
         System.out.println(serialize);

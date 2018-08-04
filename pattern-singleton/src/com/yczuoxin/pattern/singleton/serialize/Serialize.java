@@ -20,5 +20,4 @@ public class Serialize implements Serializable {
     protected Object readResolve(){
         return  serialize;
     }
-
 }
