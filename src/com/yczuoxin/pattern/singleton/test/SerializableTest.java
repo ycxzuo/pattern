@@ -2,7 +2,12 @@ package com.yczuoxin.pattern.singleton.test;
 
 import com.yczuoxin.pattern.singleton.serialize.Serialize;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 /**
  * @program: pattern
