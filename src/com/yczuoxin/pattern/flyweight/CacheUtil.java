@@ -12,9 +12,8 @@ public class CacheUtil {
 
     private final AtomicInteger stock = new AtomicInteger(0);
 
-    private final ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
-
     public CacheUtil() {
+        ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
         service.scheduleAtFixedRate(() -> stock.addAndGet(1), 0, 100, TimeUnit.MILLISECONDS);
     }
 
